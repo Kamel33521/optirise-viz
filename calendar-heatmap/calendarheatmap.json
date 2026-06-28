@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Date",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1,
+            "supportedTypes": ["DATE", "YEAR_MONTH_DAY"]
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Status Score",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "colors",
+      "label": "Colors",
+      "elements": [
+        {
+          "id": "colorAccepted",
+          "label": "Accepted color",
+          "type": "SELECT_COLOR",
+          "defaultValue": "#3d3db4"
+        },
+        {
+          "id": "colorIgnored",
+          "label": "Ignored color",
+          "type": "SELECT_COLOR",
+          "defaultValue": "#a02030"
+        },
+        {
+          "id": "colorPending",
+          "label": "Pending color",
+          "type": "SELECT_COLOR",
+          "defaultValue": "#b86b00"
+        },
+        {
+          "id": "colorNoData",
+          "label": "No data color",
+          "type": "SELECT_COLOR",
+          "defaultValue": "#e8eaed"
+        }
+      ]
+    }
+  ],
+  "interactions": []
+}

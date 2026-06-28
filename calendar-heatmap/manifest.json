@@ -1,0 +1,24 @@
+{
+  "name": "OptiRise Calendar Heatmap",
+  "organization": "RISE",
+  "description": "Calendar heatmap for OptiRise engagement tracking. Shows daily cluster status (Accepted, Ignored, Pending) in a GitHub-style grid.",
+  "logoUrl": "https://www.rise.express/og-image.png",
+  "organizationUrl": "https://www.rise.express",
+  "supportUrl": "https://www.rise.express",
+  "privacyPolicyUrl": "https://www.rise.express",
+  "termsOfServiceUrl": "https://www.rise.express",
+  "packageUrl": "https://kamel33521.github.io/optirise-viz/calendar-heatmap/",
+  "devMode": false,
+  "components": [
+    {
+      "id": "optirise-calendar-heatmap",
+      "name": "OptiRise Calendar Heatmap",
+      "description": "Displays daily engagement status in a calendar grid",
+      "iconUrl": "https://www.rise.express/og-image.png",
+      "resource": {
+        "js": "https://kamel33521.github.io/optirise-viz/calendar-heatmap/calendarheatmap.js",
+        "config": "https://kamel33521.github.io/optirise-viz/calendar-heatmap/calendarheatmap.json"
+      }
+    }
+  ]
+}
